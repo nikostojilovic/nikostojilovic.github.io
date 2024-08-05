@@ -27,8 +27,8 @@
             <a href="sols.html"id="topnavA">sols</a>
             <a href="murs.html"id="topnavA">murs</a>
             <a href="contact.html"id="topnavA">contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <div class="container-fluid justify-content-center " onclick="myFunctiond(this)">
+            <a href="javascript:void(0);" class="icon" onclick="topnav()">
+                <div class="container-fluid justify-content-center " onclick="topnavToggle(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -50,7 +50,7 @@
     <script src="js/jquery-3.7.1.slim.min"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>
-        function menu() {
+        function topnav() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
                 x.className += " responsive";
@@ -58,7 +58,7 @@
                 x.className = "topnav";
             }
         }
-        function menuB(x) {
+        function topnavToggle(x) {
             x.classList.toggle("change");
         }
     </script>

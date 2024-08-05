@@ -19,8 +19,6 @@
 <body>
     <header>
 
-
-
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active" id="topnavA">accuiel</a>
             <a href="électricité.html" id="topnavA">électricité</a>
@@ -29,8 +27,8 @@
             <a href="sols.html"id="topnavA">sols</a>
             <a href="murs.html"id="topnavA">murs</a>
             <a href="contact.html"id="topnavA">contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <div class="container-fluid justify-content-center " onclick="myFunctiond(this)">
+            <a href="javascript:void(0);" class="icon" onclick="topnav()">
+                <div class="container-fluid justify-content-center " onclick="topnavToggle(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -45,8 +43,9 @@
             <img class="" src="img/background.jpg" alt="tools" id="photoBack">
         </div>
     </section>
-
-    <div class="bg container-fluid"></div>
+    
+  
+    <div class="bg"></div>
 
     <section id="section">
         <div class="container-fluid py-5" id="icons">
@@ -79,9 +78,9 @@
 
     <section id="section">
         <div class="container-fluid">
-            <div class="row px-5 pb-5 justify-content-md-center">
+            <div class="row px-5 pb-5 justify-content-center">
                 <div class="col-12 col-xl-6">
-                    <img class="img-fluid px-5" src="img/brico_plan.png" alt="cow-640x340" id="briocPng">
+                    <img class="img-fluid px-5" src="img/brico_plan.png" alt="bricoPng1" id="briocPng">
                 </div>
                 <div class="col-12 col-xl-6 py-5" id="paragraph">
                     <h6 class="pt-5 pb-3 px-5">La créativité au travail</h6>
@@ -92,7 +91,7 @@
                 </div>
 
                 <div class="col-12 col-xl-6">
-                    <img class="img-fluid p-5" src="img/brico_group.png" alt="sunrise-640x340" id="briocPng">
+                    <img class="img-fluid p-5" src="img/brico_group.png" alt="bricoPng2" id="briocPng">
                 </div>
                 <div class="col-12 col-xl-6 py-5 " id="paragraph">
                     <h6 class="pt-5 px-5">Équipe d'experts</h6>
@@ -101,7 +100,7 @@
                 </div>
 
                 <div class="col-12 col-xl-6 py-5">
-                    <img class="img-fluid px-5" src="img/brico_fini.png" alt="grass-640x340" id="briocPng">
+                    <img class="img-fluid px-5" src="img/brico_fini.png" alt="bricoPng3" id="briocPng">
                 </div>
                 <div class="col-12 col-xl-6 py-5 " id="paragraph">
                     <h6 class="pt-5 px-5">Précision et exactitude</h6>
@@ -111,7 +110,7 @@
                 </div>
 
                 <div class="col-12 col-xl-6 py-5">
-                    <img class="img-fluid px-5" src="img/brico_all.png" alt="sunrise-640x340" id="briocPng">
+                    <img class="img-fluid px-5" src="img/brico_all.png" alt="bricoPng4" id="briocPng">
                 </div>
                 <div class="col-12 col-xl-6 py-5 " id="paragraph">
                     <h6 class="pt-5 px-5">Tout en un seul site</h6>
@@ -170,7 +169,7 @@
     <script src="js/jquery-3.7.1.slim.min"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>
-        function myFunction() {
+        function topnav() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
                 x.className += " responsive";
@@ -178,7 +177,7 @@
                 x.className = "topnav";
             }
         }
-        function myFunctiond(x) {
+        function topnavToggle(x) {
             x.classList.toggle("change");
         }
     </script>
