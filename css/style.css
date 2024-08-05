@@ -1,6 +1,6 @@
 body {
     font-family: "Red Hat Display", sans-serif;
-    font-optical-sizing: auto;
+    font-optical-sizing:none;
     font-style: normal;
 }
 
@@ -12,18 +12,20 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color:  #263238;
+    color:  rgba(38, 50, 56,0.8);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
 }
 
-
+#myTopnav :hover{
+    color: #D03739;
+}
 
 .topnav a.active {
-    background-color: #325976;
-    color:  #ECEFF1;
+    background-color: #ECEFF1;
+    color:  #263238;
 }
 
 .topnav .icon {
@@ -67,8 +69,8 @@ body {
     width: 35px;
     height: 5px;
     background-color:#D03739;
-    margin: 6px 0;
-    transition: 0.6s;
+    margin: 6px 0px;
+    transition: 0.5s;
   }
   
   .change .bar1 {
