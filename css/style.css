@@ -80,7 +80,7 @@ body {
     transform: translate(0, -7px) rotate(45deg);
   }
 .bg{
-    background-image: url("../img/background.jpg");
+    -webkit-background-image: url("../img/background.jpg");
     opacity: 0.8;
     height: 40%; 
     max-height: fit-content;
