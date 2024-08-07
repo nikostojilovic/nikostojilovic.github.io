@@ -80,14 +80,14 @@ body {
     transform: translate(0, -7px) rotate(45deg);
   }
 .bg{
-    -webkit-background-image: url("../img/background.jpg");
+    background-image: url("../img/background.jpg");
     opacity: 0.8;
-    height: 100%; 
+    height: 40%; 
     max-height: fit-content;
     width: 100%;
-    -webkit-background-position:center;
-    -webkit-background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #photoBack {
     width: auto;
