@@ -114,6 +114,9 @@ p{
     color: #263238;
     opacity: 0.6;
 }
+a{
+    text-decoration: none;
+}
 #iconPng {
     width: 150px;
     height: 150px;
