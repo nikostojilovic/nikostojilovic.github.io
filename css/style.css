@@ -82,7 +82,7 @@ body {
 .bg{
     -webkit-background-image: url("../img/background.jpg");
     opacity: 0.8;
-    height: 40%; 
+    height: 80%; 
     max-height: fit-content;
     width: 100%;
     -webkit-background-position:center;
