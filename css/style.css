@@ -94,7 +94,7 @@ body {
     height: 120%;
     position:fixed;
     opacity: 0.4;
-    filter: blur(20px);
+    filter: blur(40px);
 }
 #section2, #section3{
     background-color: #ECEFF1;
