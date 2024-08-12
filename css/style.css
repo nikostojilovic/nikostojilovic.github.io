@@ -81,7 +81,7 @@ body {
   }
 .bg{
     background-image: url("../img/background.jpg");
-    opacity: 0.95;
+    opacity: 1;
     height: 40%; 
     max-height: fit-content;
     width: 100%;
@@ -93,7 +93,7 @@ body {
     width: auto;
     height: 120%;
     position:fixed;
-    opacity: 0.4;
+    opacity: 0.3;
     filter: blur(30px);
 }
 #section2, #section3{
@@ -104,7 +104,7 @@ body {
 }
 h2, h3, h4, h5{
     color: #263238;
-    opacity: 0.6;
+    opacity: 0.8;
     font-weight: 800;
 }
 p{
