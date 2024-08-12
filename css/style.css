@@ -93,8 +93,8 @@ body {
     width: auto;
     height: 120%;
     position:fixed;
-    opacity: 0.3;
-    filter: blur(30px);
+    opacity: 0.2;
+    filter: blur(20px);
 }
 #section2, #section3{
     background-color: #ECEFF1;
