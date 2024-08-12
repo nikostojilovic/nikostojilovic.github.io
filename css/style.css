@@ -93,7 +93,7 @@ body {
     width: auto;
     height: 120%;
     position:fixed;
-    opacity: 0.2;
+    opacity: 0.4;
     filter: blur(20px);
 }
 #section2, #section3{
